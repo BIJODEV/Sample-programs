@@ -28,4 +28,3 @@ for x in range(len(n)):
    print(dict_lcm)
    result.clear()
    dict_lcm.clear()
-   x+=1
