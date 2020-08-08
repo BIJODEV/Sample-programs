@@ -1,4 +1,9 @@
 #------factor of n numbers------------
+# keep entering the integer number for which you need to calculate least common factor 
+# it will create a dictionary at the end for each input value.
+# for eg : you have entered 5 10 15
+#result : {5:[1,5]} {10:1,5,10} {15:1,3,5,15}
+
 def get_input(*args):
    try:
       my_list = []
