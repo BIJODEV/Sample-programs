@@ -24,7 +24,6 @@ for x in range(len(n)):
          a=n[x]
          result.append(i)
          dict_lcm[a] = result
-      i+=1
    print(dict_lcm)
    result.clear()
    dict_lcm.clear()
